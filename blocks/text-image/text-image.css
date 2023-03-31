@@ -1,0 +1,15 @@
+.text-image-wrapper, .text-image {
+    clear: both;
+}
+
+.text-image.left > div > div {
+    width: 45%;
+    float: left;
+    padding-right: 40px;
+}
+
+.text-image.right > div > div {
+    width: 45%;
+    float: right;
+    padding-left: 40px;
+}
