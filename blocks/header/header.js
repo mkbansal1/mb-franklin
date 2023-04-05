@@ -147,4 +147,6 @@ export default async function decorate(block) {
 // Placeholder patch
 export default async function decorate(block) {
     const placeholders = await fetchPlaceholders('');
+  console.log(placeholders);
+  debugger;
 }
