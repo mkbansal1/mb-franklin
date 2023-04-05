@@ -1,5 +1,11 @@
 {
   "project": "MB's Franklin Site",
-  "host": "www.mbfranklin.com",
-  "plugins": []
+  "host": "https://main--mb-franklin--mkbansal1.hlx.live",
+  "plugins": [
+    {
+      "id": "foo",
+      "title": "Foo",
+      "url": "/tools/sidekick/foo.html"
+    }
+  ]
 }
