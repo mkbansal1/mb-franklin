@@ -90,6 +90,11 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
+  // Placeholder patch
+    const placeholders = await fetchPlaceholders('');
+  console.log(placeholders);
+  debugger;
+  
   // fetch nav content
   const navMeta = getMetadata('nav');
   const navPath = navMeta ? new URL(navMeta).pathname : '/nav';
@@ -144,9 +149,4 @@ export default async function decorate(block) {
   }
 }
 
-// Placeholder patch
-export default async function decorate(block) {
-    const placeholders = await fetchPlaceholders('');
-  console.log(placeholders);
-  debugger;
-}
+
