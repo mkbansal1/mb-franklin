@@ -143,3 +143,8 @@ export default async function decorate(block) {
     block.append(navWrapper);
   }
 }
+
+// Placeholder patch
+export default async function decorate(block) {
+    const placeholders = await fetchPlaceholders('');
+}
